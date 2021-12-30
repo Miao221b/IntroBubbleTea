@@ -1,0 +1,111 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidbg"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/white"
+        android:paddingTop="35dp"
+        android:paddingLeft="6dp"
+        android:text="Welcome to" />
+
+    <TextView
+        android:id="@+id/bubble_tea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/white"
+        android:paddingLeft="6dp"
+        android:text="109 Bubble Tea" />
+
+    <TextView
+        android:id="@+id/addresstitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bubble_tea"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/darker_gray"
+        android:paddingTop="105dp"
+        android:paddingLeft="6dp"
+        android:text="Address:" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addresstitle"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/darker_gray"
+        android:paddingLeft="6dp"
+        android:text="39 South College Road, Haidian, Beijing" />
+
+
+    <TextView
+        android:id="@+id/contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/address"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/darker_gray"
+        android:paddingTop="175dp"
+        android:paddingRight="6dp"
+        android:text="Phone:(+86)18811028702" />
+
+    <TextView
+        android:id="@+id/hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/contact_info"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/darker_gray"
+        android:paddingRight="6dp"
+        android:text="Hours:8am-11pm Mon-Fri" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hours"
+        android:textSize="18sp"
+        android:fontFamily="sans_serif_medium"
+        android:textColor="@android:color/white"
+        android:paddingTop="20dp"
+        android:paddingLeft="6dp"
+        android:text="The founder of 109 Bubble Tea, four girls from CUFE, started their business in 2018. Thanks for the financial backing from the university, they can chase their love for bubble tea. Enthusiasm is priceless." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans_serif_light"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="10dp"
+        android:text="copyright:109-Miao" />
+
+
+
+</RelativeLayout>
